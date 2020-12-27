@@ -12,3 +12,6 @@ data que ocorreu o evento.
 * O sistema deverá permitir o cadastro de um novo usuário 
 * O sistema deverá permitir apagar um usuário cadastrado
 * O sistema deverá permitir editar um usuário cadastrado
+
+# Requisitos de conexão
+* O sistema deverá se comunicar com dispositivos via MQTT
