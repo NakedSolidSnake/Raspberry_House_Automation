@@ -1,0 +1,5 @@
+CREATE TABLE Usuarios(
+id int AUTO_INCREMENT,
+timestamp NUMERIC NOT NULL,
+Nome VARCHAR(40) NOT NULL,
+PRIMARY KEY(id));
