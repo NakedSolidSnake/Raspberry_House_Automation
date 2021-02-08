@@ -33,7 +33,7 @@ int connect_dataBase()
 	FILE *config;
 	con = mysql_init(NULL);
 	char msg[BUFFER];
-	char *campos[11] = {"host", "user", "passwd", "dbname", "port", "unix_socket", "client_flag"};
+	char *campos[7] = {"host", "user", "passwd", "dbname", "port", "unix_socket", "client_flag"};
 	char *dado[7];
 		
 	if (con == NULL)
